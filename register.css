@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    border:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #101720;
+    margin:auto;
+    margin-top: 220px;
+}
+.form{
+    color: #fff;
+    border: #fff;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    padding: 80px 80px;
+    border-radius: 40px;
+    text-align: center;
+    max-width: 500px;
+    width:150%;
+   justify-content: center;
+   position: relative;
+   margin: auto;
+   
+}
+.name{
+    color:black;
+}
+.blck_1{
+    width: 50%;
+    padding: 10px;
+    border:none;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    font-size: 15px;
+    margin-top:10px;
+}
+.blck_2{
+    width: 50%;
+    padding: 10px;
+    border:none;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    font-size: 15px;
+    margin-top:10px;
+}
+.blck_3{
+    width: 100%;
+    padding: 10px;
+    border:none;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    font-size: 15px;
+    margin-top:10px;
+}
+.blck_4{
+    width: 100%;
+    padding: 10px;
+    border:none;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    font-size: 15px;
+    margin-top:10px;
+}
+.blck_5{
+    width: 100%;
+    padding: 10px;
+    border:none;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    font-size: 15px;
+    margin-top:10px;
+}
+.whole{
+    display: flex;
+    gap: 3px;
+}
+.reg{
+    display: -webkit-box;
+    margin: 0%;
+    margin-bottom: -15px;
+    text-align: center;
+    font-size: 200%;
+
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 20px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+.sign{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.para{
+    font-size: x-large;
+    font-style:i;
+}
